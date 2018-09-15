@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    height: 800px;
+    background-color:#424242;
+}
+h1{
+    text-align: center;
+    padding:300px;
+}
+h2{
+    color: aliceblue;
+    font-family: 'Oswald', sans-serif;
+    padding-left:150px;
+    padding-top: 30px
+}
+p{
+    color: blanchedalmond;
+    font-family: 'Sawarabi Gothic', sans-serif;
+    margin-left:150px;
+    margin-right:150px;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+.story{
+    background-color:#E53935;
+    height: 240px;
+}
+.characters{
+    background-color: #424242
+}
