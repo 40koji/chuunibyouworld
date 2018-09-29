@@ -6,10 +6,13 @@
 .top {
     height: 800px;
     background-color:#424242;
+    background-image: url(top_pic.png);
+    background-size: cover;
 }
 h1{
     text-align: center;
-    padding:300px;
+    padding:550px;
+    color: chartreuse
 }
 h2{
     color: aliceblue;
@@ -17,6 +20,7 @@ h2{
     padding-left:150px;
     padding-top: 30px
 }
+
 p{
     color: blanchedalmond;
     font-family: 'Sawarabi Gothic', sans-serif;
@@ -30,5 +34,44 @@ p{
     height: 240px;
 }
 .characters{
-    background-color: #424242
+    background-color: #424242;
+}
+
+.swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 300px;
+  margin-top: 100px;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 1000px;
+  height: 800px;
+  display: flex;
+  background-color: sandybrown
+}
+
+.swiper-slide .imgBx {
+  width: 50%;
+  overflow: hidden;
+}
+
+.swiper-slide .imgBx img {
+  width: 100%;
+}
+
+.swiper-slide .detail {
+  height: 150px;
+  background-color: #fff;
+}
+
+h3{
+    margin-top: 180px;
+    color: azure;
+    margin-left: 190px;
+}
+
+.detail{
+    width: 500px;
 }

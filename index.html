@@ -1,23 +1,141 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic" rel="stylesheet">
+    <link rel="stylesheet" href="swiper.min.css">
     <link rel="stylesheet" href="style.css">
     <title>chuunibyou-world</title>
 </head>
+
 <body>
-  <div class="top">
-      <h1>厨二病の世界</h1>
-  </div>
-   <div class="story">
-       <h2>STORY</h2>
-       <p>高1の秋、丸一敬久は横浜の道端で不思議な場所へ転送される。そこは厨二病の世界だった。どうやら、現実世界と繋がっているらしく、一般人、動物、建物、交通機関は見えている。ただ、その世界には魔王と名乗る支配者がいて、そこに来た人達を出さないようだ。そこで敬久は5人のチームを組んで、厨二病の世界を脱出する計画を立てる。果たして彼らは脱出できるの。</p>
-   </div>
+    <div class="top">
+        <h1>厨二病の世界</h1>
+    </div>
+    <div class="story">
+        <h2>STORY</h2>
+        <p>2058年、高1の秋、丸一敬久は横浜の厨二病患者保護施設という場所へ送られる。そのな中は別の世界だった。全国からあらゆる学年の厨二病がそこへ連れてこられている。保護施設というよりは牢獄、敬久はそう思った。そこで彼は仲間を作って、厨二病の世界を脱出する計画を立てる。果たして彼らは出ることができるのかできるの。</p>
+    </div>
+    <!--
+    <img src="character1.png" alt="">
+    <h2></h2>
+    <p></p>
+
+    <img src="" alt="">
+    <h2></h2>
+    <p></p>
+
     <img src="" alt="">
     <h2></h2>
     <p></p>
     <a href=""></a>
+-->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="imgBx">
+                    <img src="character1.png" width="600" height="800" alt="">
+                </div>
+                <div class="detail">
+                    <h3>丸一敬久</h3>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="imgBx">
+                    <img src="character1.png" width="600" height="800" alt="">
+                </div>
+                <div class="detail">
+                    <h3>Character</h3>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="imgBx">
+                    <img src="character1.png" width="600" alt="">
+                </div>
+                <div class="detail">
+                    <h3>Character</h3>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="imgBx">
+                    <img src="character1.png" width="600" alt="">
+                </div>
+                <div class="detail">
+                    <h3>Character</h3>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="imgBx">
+                    <img src="character1.png" width="600" alt="">
+                </div>
+                <div class="detail">
+                    <h3>Character</h3>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="imgBx">
+                    <img src="character1.png" width="600" alt="">
+                </div>
+                <div class="detail">
+                    <h3>Character</h3>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="imgBx">
+                    <img src="character1.png" width="600" alt="">
+                </div>
+                <div class="detail">
+                    <h3>Character</h3>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="imgBx">
+                    <img src="character1.png" width="600" alt="">
+                </div>
+                <div class="detail">
+                    <h3>Character</h3>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="imgBx">
+                    <img src="character1.png" width="600" alt="">
+                </div>
+                <div class="detail">
+                    <h3>Character</h3>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="imgBx">
+                    <img src="character1.png" width="600" alt="">
+                </div>
+                <div class="detail">
+                    <h3>Character</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        });
+    </script>
 </body>
+
 </html>
